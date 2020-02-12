@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Customized bootstrap navbars</title>
 
-    <!-- BASE STYLE FOR DEFAULT NAVIGATION - ONLY NAV -->
-    <link rel="stylesheet" href="assets/css/bootstrap-nav.css">
-    <!-- ALL BOOTSTRAP WITH CUSTOM NAVIGATION -->
+    <!-- customized bootstrap -->
     <link rel="stylesheet" href="assets/css/customized_bootstrap.css">
     <!-- loading fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:500&display=swap" rel="stylesheet">
@@ -16,7 +14,302 @@
 </head>
 <body>
 
-    <h1>hello world, Hi</h1>
+    <div id="default_navbar" class="mb-4"> <!-- default bootstrap navbar -->
+        <div class="container">
+            <h2>Default bootstrap navbar</h2>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div> <!-- / default bootstrap navbar -->
+    
+    <!-- Breathe navbars set -->
+    <section id="breathe_navbars" class="container">
+
+        <div class="section_header py-1 border-bottom mb-5">
+            <h2>Breathe set</h2>
+            <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae voluptate quo doloremque tempora reprehenderit, velit eius nostrum vero nesciunt aperiam sit maxime beatae? Commodi dolorem quaerat, reprehenderit dolorum magnam laborum?</p>
+        </div>
+
+        <nav class="navbar breathe navbar-expand-lg navbar-light bg-white mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-1 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+                <button class="btn btn-link" type="button">Sign In</button>
+                <button class="btn btn-primary" type="button">Sign Up</button>
+            </div>
+        </nav>
+
+        <nav class="navbar breathe navbar-expand-lg navbar-light bg-white mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar breathe navbar-expand-lg navbar-light bg-white mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+                <button class="btn btn-primary" type="button">
+                    <i class="fab fa-google-play mr-1"></i>
+                    Get it on play 
+                </button>
+            </div>
+        </nav>
+        
+        <nav class="navbar breathe navbar-expand-lg navbar-light bg-white mb-5">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </ul>
+            </div>
+        </nav>
+
+        <p class="text-muted mb-4">- Primary background alternatives</p>
+        <!-- Primary background alternatives -->
+        <nav class="navbar breathe navbar-expand-lg navbar-dark bg-primary mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-1 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+                <button class="btn btn-link" type="button">Sign In</button>
+                <button class="btn btn-light" type="button">Sign Up</button>
+            </div>
+        </nav>
+
+        <nav class="navbar breathe navbar-expand-lg navbar-dark bg-primary mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item ml-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-behance"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-dribbble"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <nav class="navbar breathe navbar-expand-lg navbar-dark bg-primary mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item px-1">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                </ul>
+                <button class="btn btn-light" type="button">
+                    <i class="fab fa-google-play mr-1"></i>
+                    Get it on play 
+                </button>
+            </div>
+        </nav>
+        
+        <nav class="navbar breathe navbar-expand-lg navbar-dark bg-primary mb-4">
+            <a class="navbar-brand" href="#">Kivik</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item mx-2 active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link" href="#">Shop</a>
+                    </li>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    </form>
+                </ul>
+            </div>
+        </nav>
+    </section> 
+    <!-- / Breathe navbars set -->
 
     <script src="assets/js/bootstrap-native.min.js"></script>
     <script src="assets/js/polyfill.min.js"></script>
