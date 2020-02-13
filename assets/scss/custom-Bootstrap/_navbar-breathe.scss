@@ -6,6 +6,8 @@
     // Read more on post - tldr; best choice : edit the default variables
 
     padding: $navbar-padding-y * 3 $navbar-padding-x * 2;
+
+
     
     & * {
         transition: all 0.2s ease;
@@ -75,4 +77,10 @@
             opacity: 1;
         }
     }
+
+    &.border         { border: $border-width solid rgba($color: rgb(32, 46, 120) , $alpha: 0.3) !important; }
+    &.border-top     { border-top: $border-width solid rgba($color: rgb(32, 46, 120) , $alpha: 0.3) !important; }
+    &.border-right   { border-right: $border-width solid rgba($color: rgb(32, 46, 120) , $alpha: 0.3) !important; }
+    &.border-bottom  { border-bottom: $border-width solid rgba($color: rgb(32, 46, 120) , $alpha: 0.3) !important; }
+    &.border-left    { border-left: $border-width solid rgba($color: rgb(32, 46, 120) , $alpha: 0.3) !important; }
 }

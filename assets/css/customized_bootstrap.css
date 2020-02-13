@@ -9969,5 +9969,20 @@ h3 {
 .navbar-dark.breathe .form-control:focus {
   opacity: 1;
 }
+.navbar-dark.breathe.border {
+  border: 1px solid rgba(32, 46, 120, 0.3) !important;
+}
+.navbar-dark.breathe.border-top {
+  border-top: 1px solid rgba(32, 46, 120, 0.3) !important;
+}
+.navbar-dark.breathe.border-right {
+  border-right: 1px solid rgba(32, 46, 120, 0.3) !important;
+}
+.navbar-dark.breathe.border-bottom {
+  border-bottom: 1px solid rgba(32, 46, 120, 0.3) !important;
+}
+.navbar-dark.breathe.border-left {
+  border-left: 1px solid rgba(32, 46, 120, 0.3) !important;
+}
 
 /*# sourceMappingURL=customized_bootstrap.css.map */
