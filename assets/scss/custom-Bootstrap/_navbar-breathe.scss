@@ -1,14 +1,11 @@
 .navbar.breathe {
 
     // You can edit the default variables for navbar-padding
-    // You can add extra set of the variables for navbar-padding like $navbar-breathe-padding-y
+    // You can add an extra set of the variables for navbar-padding like $navbar-breathe-padding-y
     // Or you can do some simple math on default variables here
-    // Read more on post - tldr; best choice : edit the default variables
 
     padding: $navbar-padding-y * 3 $navbar-padding-x * 2;
 
-
-    
     & * {
         transition: all 0.2s ease;
     }
